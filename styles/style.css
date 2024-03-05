@@ -156,3 +156,10 @@ section {
 .hot_img {
     margin: 0 auto;
 }
+
+.instagram_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    text-align: center;
+}
