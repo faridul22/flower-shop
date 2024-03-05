@@ -163,3 +163,9 @@ section {
     gap: 25px;
     text-align: center;
 }
+
+.latest_deal_container {
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
