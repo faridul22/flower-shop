@@ -105,3 +105,25 @@ section {
 .feature_name>a {
     color: #272727;
 }
+
+/* support styles */
+.support_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    width: 1440px;
+    padding: 87px 0;
+    margin: 130px auto;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.support_item>img {
+    width: 88px;
+    height: 88px;
+}
+
+.support_item>p>small {
+    text-align: center;
+}
