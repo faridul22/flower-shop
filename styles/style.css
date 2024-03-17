@@ -237,7 +237,8 @@ footer>div>.section_description {
 
     /* banner styles */
     .banner_container,
-    .feature_container {
+    .feature_container,
+    .support_container {
         flex-direction: column;
     }
 
@@ -266,5 +267,12 @@ footer>div>.section_description {
 
     .feature_img img {
         width: 100%;
+    }
+
+    /* Support styles */
+    .support_container {
+        gap: 20px;
+        width: 100%;
+        padding: 50px 0;
     }
 }
