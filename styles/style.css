@@ -39,7 +39,7 @@ section {
     color: white;
 }
 
-/* banner styles */
+/* Banner styles */
 .banner_container {
     display: flex;
     align-items: center;
@@ -64,9 +64,8 @@ section {
     color: rgba(39, 39, 39, 0.60);
 }
 
-.banner_img {
-    width: 635px;
-    height: 800px;
+.banner_img img {
+    margin: 20px;
 }
 
 /* Featured Flowers styles */
@@ -223,4 +222,30 @@ footer>div>.section_description {
     color: rgba(255, 255, 255, 0.40);
 
 
+}
+
+.hide {
+    display: none;
+}
+
+/* Responsive design for small device */
+@media screen and (max-width:576px) {
+    .banner_container {
+        flex-direction: column;
+    }
+
+    .banner_info {
+        width: auto;
+        text-align: center;
+    }
+
+    .banner_title {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .banner_img img {
+        width: 90%;
+        margin-bottom: 0;
+    }
 }
