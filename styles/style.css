@@ -275,4 +275,13 @@ footer>div>.section_description {
         width: 100%;
         padding: 50px 0;
     }
+
+    /* Hot deal styles */
+    .hot_deal_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hot_info {
+        margin-bottom: 40px;
+    }
 }
