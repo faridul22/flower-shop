@@ -277,11 +277,14 @@ footer>div>.section_description {
     }
 
     /* Hot deal styles */
-    .hot_deal_container {
+    .hot_deal_container,
+    .instagram_container {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .hot_info {
         margin-bottom: 40px;
     }
+
+    /* Instagram styles */
 }
