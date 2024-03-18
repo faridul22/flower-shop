@@ -314,4 +314,9 @@ footer>div>.section_description {
         font-size: 10px;
     }
 
+    /* footer styles */
+    footer {
+        margin-top: 100px;
+    }
+
 }
